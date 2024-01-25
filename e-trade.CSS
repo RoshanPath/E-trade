@@ -1085,7 +1085,7 @@ padding: 5px 30px;
 }
 /* media screen start with 1150px  */
 
-@media screen and (max-width:1188px){
+@media screen and (max-width:1260px) and (min-width:1180px){
     #nav2 {
        
         width: 100%;
@@ -1146,7 +1146,7 @@ padding: 5px 30px;
     }
     .accessories-image {
         width: 100%;
-        padding: 18px 30px;
+        padding: 18px 20px;
         border-radius: 5px;
         }
         #music1 {
@@ -1606,7 +1606,7 @@ padding: 5px 30px;
 }
 
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:650px) and (min-width:570px){
    
 .right ul li a {
     text-align: end;
@@ -1868,7 +1868,7 @@ padding: 5px 30px;
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:460px) and (min-width:340px){
     .hero-image {
      width: 100%;
     height: 116vh;
