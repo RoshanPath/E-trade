@@ -1,0 +1,488 @@
+@media screen and (max-width:1100px) {
+    #navigation1 {
+        width: 22%;
+    }
+    
+#navigation2 {
+    width: 54%;
+}
+#navigation3 {
+    width: 15%;
+}
+.link-icon-section i {
+    height: 30px;
+    width: 30px;
+    font-size: 1.4rem;
+}
+.circle {
+    position: absolute;
+    top: 4px;
+    left: 90px;
+}
+.item7 {
+    width: 15%;
+}
+#accessories7{
+    display: none;
+}
+.feedback-box1-text {
+    width: 100%;
+    padding: 40px 10px
+}
+.select-btn {
+    font-size: 0.70rem;
+    border-radius: 4px;
+    padding: 8px 14px;
+}
+.arivval-MRP,.MRP{
+    font-size: 1.2rem;
+}
+.arivval-offer-price{
+    font-size: 1.4rem;
+}
+.itembox8-MRP,
+.offer-price {
+    font-size: 1.4rem;
+}
+.item5 {
+    width: 20%;
+    padding: 30px 0px;
+}
+#invisible-item5{
+    display: none;
+}
+.weeklyupdate-row {
+    width: 94%;
+}
+}
+
+@media screen and (max-width:1050px){
+    .item3 {
+        width: 40%;
+        }
+    #feedback-box2{
+        display: none;
+    }
+}
+@media screen and (max-width:1000px){
+
+    #item-2{
+        width: 44%;
+    }
+    #Headphone {
+        width: 94%;
+        transform: rotateX(0deg);
+    }
+    #container1{
+        justify-content: center;
+        gap: 66px;
+    }
+    .item7 {
+        width: 20%;
+        margin-top: 8px;
+    }
+    #hour-circle-div {
+        width: 84%
+    }
+    .item-4 {
+        width: 28%;
+        margin-top: 10px;
+    }
+    .arivval-item-4 {
+        width: 33.99%;
+    }
+    .itembox8-box1-text span{
+        font-size: 0.80rem;
+    }
+    .itembox8-box1-image {
+        width: 22%;
+    }
+    .itembox8-name{
+        font-size: 0.90rem;
+    }
+}
+
+@media screen and (max-width:900px){
+    #navigation1 {
+        width: 28%;
+    }
+    #navigation2 {
+        display: none !important;
+    }
+    #navigation3 {
+        width: 52%;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    .link-icon-section i{
+        font-size: 1.8rem;
+    }
+    .menu-btn{
+        display: block !important;
+    }
+    .link-icon-section i:hover {
+        background-color: #fff;
+      }
+      #big-text-1{
+        font-size: 2.6rem;
+      }
+      #feedback-text,
+      .why-people-heading,
+      #big-text-2{
+        font-weight: 600;
+        font-size: 2rem;
+      }
+
+      .item5 {
+        width: 34%;
+        margin-top: 26px;
+    }
+    .item5-imagebox {
+        width: 40%;
+    }
+    .mostsold-itembox8 {
+        width: 75%;
+    }
+}
+@media screen and (max-width:650px){
+    #item-1 {
+        width: 80%;
+    }
+    #item-2 {
+        width: 66%;
+    }
+    #Headphone {
+        width: 100%;
+    }
+    #container1{
+        padding: 0px;
+        gap: 30px;
+    }
+    .item7 {
+        width: 24%;
+    }
+    #music1 {
+        width: 78%;
+    }
+    #music2 {
+        width: 52%;
+        margin-top: 20px;
+    }
+    .item3 {
+        width: 84%;
+        padding: 14px;
+    }
+    #big-text-1{
+        font-size: 2.4rem;
+    }
+    #feedback-text,
+    .why-people-heading,
+    #big-text-2,
+    .Get-weekly-bigtext{
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .item-4 {
+        width: 42%;
+        padding: 8px 0px;
+    }
+    .image-box-name,
+    .arivval-image-name{
+        font-size: 0.90rem;
+        padding: 6px 0px;
+    }
+    .feedback-box1-text {
+        width: 100%;
+        padding: 40px 35px;
+    }
+    .feedbacker-profile {
+        padding: 18px 0px;
+    }
+    .arivval-item-4 {
+        width: 40.99%;
+    }
+    .weeklyupdate-row {
+        width: 100%;
+    }
+    .input-div,
+    .envlop-section,
+    .Get-weekly-bigtext{
+        padding: 6px 0px;
+    }
+    .input-tag {
+        width: 340px;
+        height: 55px;
+    }
+    .subscribe-btn{
+        margin-top: 8px;
+        font-size: 0.90rem;
+        padding: 20px;
+    }
+    .footer-item4 {
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px){
+    #nav1{
+        padding: 0px;
+    }
+    .left,
+    .right {
+        width: 100%;
+        justify-content: center;
+        padding: 2px;
+    }
+    .left ul li a,
+    .right ul li a{
+        font-size: 0.95rem;
+    }
+    #navigation1,
+    #navigation3 {
+        width: 38%;
+    }
+    .link-icon-section{
+        display: none !important;
+    }
+
+    #item-2 {
+        width: 80%;
+    }
+    .products-heading-row{
+        padding: 10px;
+    }
+    #feedback-text {
+        font-size: 1.4rem;
+        font-weight: 600;
+        width: 70%;
+        padding-top: 10px;
+    }
+    .arrow {
+        width: 30%;
+    }
+    .arrow-right,
+    .arrow-left {
+        width: 40px;
+        height: 40px;
+    }   
+    .item7 {
+        width: 34%;
+    }
+    #music-row-2nd {
+        width: 100%;
+    }
+    #music1 {
+        width: 90%;
+    }
+    .product-heading{
+        padding: 0px;
+    }
+    #pink-headphn-circle-text,
+    #catogaries-text,
+    #product-text{
+        font-size: 0.90rem;
+    }
+    #hour-circle-div {
+        width: 64%;
+    }
+    .check-it-btn {
+        width: 130px;
+        padding: 16px 4px;
+        font-size: 0.90rem;
+    }
+    #music2 {
+        width: 50%;
+    }
+    .hrs-circle {
+        background-color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        width: 60px;
+        height: 60px;
+    } 
+    .item-4-product-name-div {
+        width: 84%;
+    }
+    .image-box-name,
+    .arivval-image-name{
+        font-size: 0.82rem;
+        padding: 6px 0px;
+    }
+    .itembox8-MRP, .offer-price {
+        font-size: 1.2rem;
+    }
+    .arivval-MRP, .MRP {
+        font-size: 1rem;
+    }
+    #veiw-all-product{
+        padding: 6px;
+    }
+    #all-product {
+        font-size: 0.80rem;
+        height: 60px;
+        width: 200px;
+    }
+    .arivval-item-4 {
+        width: 49.99%;
+    }
+    .arivval-offer-price {
+        font-size: 1.2rem;
+    }
+    .most-sold-heading {
+        font-size: 1.4rem;
+    }
+    .mostsold-itembox8 {
+        width: 90%;
+    }
+    .item5-container{
+        width: 100%;
+        padding: 0px;
+    }
+    .item5 {
+        padding: 26px 0px
+    }
+    .input-tag {
+        font-size: 0.85rem;
+        width: 274px;
+        height: 60px;
+    }
+    .fa-envelope {
+        font-size: 1.2rem;
+    }
+    .fulladdress{
+        padding: 8px 0px;
+        font-size: 0.88rem;
+    }
+    .footer-link {
+        padding: 6px 0px;
+        font-size: 0.88rem;
+    }
+    .footer-box4text {
+        font-size: 0.88rem;
+    }
+
+    
+}
+@media screen and (max-width:480px){
+
+    .left ul li a, .right ul li a {
+        font-size: 0.80rem;
+    }
+    #nav2 {
+        padding: 10px 0px;
+    }
+    #bars {
+        font-size: 1.8rem;
+    }
+    #navigation1, #navigation3 {
+        width: 46%;
+    }
+    .hero-image {
+        padding:42px 0px;
+        margin-top: 10vh; 
+    }  
+    #pinktxt,
+    #catogaries-text,
+    #pink-headphn-circle-text,
+    #product-text,
+    .most-sold, 
+    .thumbs-text,
+    .envolop-text{
+        font-size: 0.90rem;
+        font-weight: 600;
+    } 
+    .envolop-text{
+        margin-left: 4px;
+    }
+    #big-text-1,
+    #big-text-2 {
+        font-size:1.8rem;
+        padding-bottom: 15px;
+    }
+    #btn-1 button {
+        font-size: 0.90rem;
+        padding: 14px 20px;
+    }
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: -20px;
+        left: 38px;
+        width: 80px;
+        height: 80px;
+    }
+    #feedback-text,
+    .most-sold-heading,
+    .why-people-heading,
+    .Get-weekly-bigtext{
+        font-size: 1.2rem;
+        padding: 10px 0px;
+    }
+    .item7 {
+        width: 36%;
+    }
+    .item-4 {
+        width: 45%;
+        padding: 8px 0px;
+    }
+    #feedback-heading-row{
+        padding: 10px;
+    }
+    .item3 {
+        width: 90%;
+        padding: 0px;
+    }
+    .feedback-box1-text{
+        font-size: 0.80rem;
+    }
+    .button-box {
+        width: 92%;
+        padding: 10px 0px;
+    }
+    .select-btn {
+        font-size: 0.80rem;
+        padding: 14px;
+    }
+    .eye-btn,
+    .heart-btn,
+    .Itembox8-box2-cart,
+    .Itembox8-box2-heart{
+        font-size: 1rem; 
+    } 
+    .sold-most-container {
+        padding:14px 0px;
+    }
+    .itembox8-box1-text {
+        width: 70%;
+    }
+    .itembox8-box2 {
+        width: 16%;
+    }
+    .item5 {
+        width: 40%;
+        padding: 16px 0px;
+    }
+    .weeklyupdate-container {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .weeklyupdate-row {
+       padding: 10px;
+       justify-content: space-evenly;
+    }
+    .subscribe-btn {
+        margin-top: 8px;
+        font-size: 0.80rem;
+        padding: 14px;
+    }    
+    .footer-row{
+        width: 100%;
+        padding:0px 10px;
+    }
+    .footer-item4 {
+        width: 40%;
+        padding: 6px 0px;
+    }
+}
