@@ -68,6 +68,7 @@
     /* position: relative; */
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 100px;
     justify-content: space-evenly;
     background-color: #F6F6F6;
@@ -174,6 +175,7 @@
 #image-row{
     width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
     /* border: 0.5px solid black;  */
 }
@@ -266,3 +268,88 @@
     transition: all 1s;
 }
 /* Weeklyupdate-container-Background-image */
+
+@media screen and (max-width:500px) {
+    #about-row-1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #about-store-box1 {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    #about-store-box2 {
+        width: 100%;
+    }
+    .about-store-logo,
+    .icon-div {
+        padding: 6px 8px;
+        font-size: 0.80rem;
+    }
+    .boldtext-bigsize {
+        font-size: 1.2rem;
+        padding: 2px 20px;
+    }
+    .grey-bigtext,
+    .normal-text {
+        font-size: 0.90rem;
+    }
+    .text-box {
+        width: 90%;
+    }
+    .text-boximg {
+        width: 70px;
+        height: 70px;
+    }
+    .heading {
+        font-size: 1.2rem;
+        padding-left: 8px;
+    }
+    .expert-mangement {
+        width: 50%;
+        
+    }
+    #arrow{
+        justify-content: flex-end;
+        gap: 4px;
+    }
+    .arrow-right, .arrow-left {
+        width: 40px;
+        height: 40px;
+    }
+    .item4 {
+        width: 50%;
+        padding: 10px 0px;
+    }
+    .item4-name {
+        font-size: 1rem;
+    }
+    .solution-image-box {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .content-box2 {
+        gap: 20px;
+        padding: 20px;
+    }
+    .solution-text-box {
+        float: none;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .get-in-touch {
+        font-size: 0.80rem;
+        font-weight: 600;
+        padding: 16px 20px;
+    }
+    .feature-text,
+    .textbox-smalltext,
+    .degisnation {
+        font-size: 0.90rem;
+        padding: 6px 0px;
+    }
+    .solution-big-text {
+        font-size: 1.2rem;
+        padding: 0px 0px
+    }
+}

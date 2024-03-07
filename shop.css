@@ -340,3 +340,70 @@
     cursor: pointer;
     background-color: #F6F7FB;
 }
+
+@media screen and (max-width:480px) {
+    .background-imagenav{
+        margin-top: 18vh;
+        height: 6vh;
+    }
+    .background-text {
+        font-size: 0.80rem;
+    }
+    .All-product-section {
+        width: 100%;
+        padding: 10px 0px
+    }
+    .All-product-text-box,
+    .speaker-image{
+        width: 50%;
+        padding-left: 10px;
+    }
+    .my-account-text {
+        font-size: 0.75rem;
+        padding-bottom: 5px;
+    }
+    .All-products-heading {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .speaker-imagebox {
+        width: 40%;
+        margin-right: 10px;
+    }
+    .text-section {
+        display: none !important;
+    }
+    .shortlisted-row{
+        justify-content: space-between;
+    }
+    .showing-result{
+        font-size: 0.80rem;
+    }
+    #select-btn {
+        font-size: 0.80rem;
+        width: 116px;
+        height: 38px;
+    }
+    .image-section {
+        width: 100%;
+    }
+    .image-section-row-item3 {
+        width: 33%;
+    }
+    .image-item3-box-name {
+        font-size: 0.80rem;
+    }
+    .image-item3-box-offer-price {
+        font-size: 1.1rem;
+    }
+    .image-item3-box-MRP-price {
+       margin-left: 5px;
+        font-size: 0.98rem;
+    }
+    .load-more-btn {
+        font-size: 0.90rem;
+        width: 140px;
+        height: 48px;
+    }
+}
+
