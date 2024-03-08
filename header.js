@@ -60,19 +60,11 @@ document.write(`<!DOCTYPE html>
           <ul>
             <li>
               <a href="index.html"
-                >Home<i
-                  class="fa-solid fa-chevron-down fa-sm"
-                  style="color: #9dabc3"
-                ></i
-              ></a>
+                >Home</a>
             </li>
             <li>
               <a href="shop.html"
-                >Shop<i
-                  class="fa-solid fa-chevron-down fa-sm"
-                  style="color: #9dabc3"
-                ></i
-              ></a>
+                >Shop</a>
             </li>
             <li>
               <a href="about.html"
