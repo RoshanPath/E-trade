@@ -68,27 +68,15 @@ document.write(`<!DOCTYPE html>
             </li>
             <li>
               <a href="about.html"
-                >About<i
-                  class="fa-solid fa-chevron-down fa-sm"
-                  style="color: #9dabc3"
-                ></i
-              ></a>
+                >About</a>
             </li>
             <li>
               <a href=""
-                >Contact Us<i
-                  class="fa-solid fa-chevron-down fa-sm"
-                  style="color: #9dabc3"
-                ></i
-              ></a>
+                >Contact Us</a>
             </li>
             <li>
               <a href=""
-                >Blog<i
-                  class="fa-solid fa-chevron-down fa-sm"
-                  style="color: #9dabc3"
-                ></i
-              ></a>
+                >Blog</a>
             </li>
           </ul>
         </div>

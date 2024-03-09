@@ -16,6 +16,7 @@
   top: 0;
   z-index: 12;
   background-color: #292930;
+  box-shadow: 0px 0px 8px 0px rgb(184, 177, 177);
 }
 #nav1 {
   width: 100%;
@@ -86,9 +87,6 @@ img {
   font-weight: 600;
 
 }
-#navigation2 ul li:hover {
-  text-decoration: underline;
-}
 #navigation3 {
   width: 18%;
   cursor: pointer;
@@ -111,7 +109,8 @@ img {
   border-radius: 50%;
 }
 .link-icon-section i:hover {
-  background-color: #3577f0;
+  background-color:#3778F0;
+  transition: all 1s;
 }
 .menu-btn{
   display: none !important;
@@ -203,6 +202,11 @@ img {
   border: none;
   cursor: pointer;
 }
+#btn-1 button:hover{
+  background-color: #3577f0;
+  transition: all 1s;
+  color: white;
+}
 #rating-image {
   width: fit-content;
   display: flex;
@@ -280,8 +284,8 @@ img {
 }
 .circle {
   position: absolute;
-  top: 140px;
-  left: 220px;
+  top: 20px;
+  left: 140px;
   width: 100px;
   height: 100px;
   /* text-align: center; */
@@ -378,6 +382,7 @@ img {
 }
 #big-text-2 {
   font-size: 3rem;
+  font-weight: 600;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -493,6 +498,12 @@ img {
   border-radius: 5px;
   background-color: #f6f7fb;
 }
+.arrow-left:hover{
+  background-color: #3778F0;
+  color: #fff !important;
+  cursor: pointer;
+  transition: all 1s;
+}
 .arrow-right {
   display: flex;
   justify-content: center;
@@ -503,6 +514,12 @@ img {
   font-size: 1.4rem;
   border-radius: 5px;
   background-color: #f6f7fb;
+}
+.arrow-right:hover{
+  background-color: #3778F0;
+  color: #fff !important;
+  cursor: pointer;
+  transition: all 1s;
 }
 /* Explore product  */
 #Explore-row1 {
@@ -515,28 +532,42 @@ img {
 }
 .item-4 {
   width: 25%;
-  margin-top: 18px;
   padding: 20px 0px;
 }
-.image-box {
+.product-page {
+  position: relative;
+  display: block;
   width: 80%;
   margin: auto;
+  margin-top: 18px;
+  border-radius: 18px;
+  overflow: hidden;
 }
-.image-box:hover {
+.product-page:hover {
   box-shadow: 10px 10px 5px rgb(230, 229, 229);
+  transition: all 1s;
 }
-.image-box img {
-  border-radius: 5px;
+.product-page img {
+  border-radius: 16px;
+}
+.product-page img:hover{
+  transform: scale(1.1);
+  transition: all 1s;
 }
 .item-4-product-name-div{
   width: 80%;
   margin: auto;
+  line-height: 1.4;
   padding: 20px 0px;
 }
 .image-box-name {
   display: block;
   text-decoration: none;
   color: #5c5757;
+}
+.image-box-name:hover{
+  color: #3577f0;
+  transition: all 1s;
 }
 .offer-price {
   display: inline-block;
@@ -560,13 +591,18 @@ img {
 #all-product {
   font-size: 0.9rem;
   height: 70px;
-  width: 240px;
+  width: 200px;
   font-weight: 600;
   border-radius: 10px;
   border: none;
   background-color: #f6f7fb;
   color: #777777;
   cursor: pointer;
+}
+#all-product:hover{
+  background-color: #3778F0;
+  color: #fff;
+  transition: all 1s;
 }
 
 /* user feedback container  */
@@ -727,20 +763,28 @@ img {
   /* border: 0.5px solid black; */
 }
 .new-arrival-arrow-left {
-  padding: 15px 20px;
-  margin: 8px;
-  border-radius: 60px;
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: #aab2c0;
   background-color: #f6f7fb;
-  /* border: 0.5px solid black; */
 }
 .new-arrival-arrow-right {
-  padding: 15px 20px;
-  margin: 8px;
-  border-radius: 60px;
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: #aab2c0;
   background-color: #f6f7fb;
-  /* border: 0.5px solid black; */
 }
 /* Explore product  */
 .row{
@@ -751,18 +795,26 @@ img {
   padding: 20px 0px;
 }
 .arivval-item-4 {
-  width: 24.99%;
+  width: 20%;
   text-align: center;
   padding: 20px 0px;
 }
-.arivval-image-box {
-  width: 80%;
+.arivval-item-4-page{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 90%;
   margin: auto;
   border-radius: 50%;
   /* border: 0.5px solid black; */
 }
-.arivval-image-box img {
+.arivval-item-4-page img {
   border-radius: 50%;
+
+}
+.arivval-item-4-page img:hover{
+  transform: scale(1.1);
+  transition: all 1s;
 }
 .arivval-image-name {
   display: block;

@@ -152,22 +152,28 @@
 }
 .arrow-left{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height:80px;
-    width: 80px;
-    background-color: #fff;
-    border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: #aab2c0;
+  background-color: #f6f7fb;
  
 }
 .arrow-right{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:80px;
-    width: 80px;
-    border-radius: 4px;
-    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #aab2c0;
+    background-color: #f6f7fb;
     
 }
 /* IMAGE ROW  */

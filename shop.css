@@ -282,30 +282,28 @@
 
 }
 .image-section-row-item3{
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     /* border: 0.5px solid black; */
 }
-.image-item3-box{
-    width: 90%;
-    padding: 10px 0px;
-    border-radius: 5px;    
-}
-.image-item3-box img{
-    border-radius: 5px;
-}
 .image-item3-box-name{
-    width: 90%;
+    width: 74%;
     color:rgb(100, 99, 99);
-    font-size:1rem; 
-    padding: 5px 0px;
+    font-size:1.2rem; 
+    padding: 10px 0px;
 
 }
+.image-item3-box-name:hover{
+    color: #3577F0;
+    transition: all 1s;
+    cursor: pointer;
+}
 .item-3-price-box{
-    width: 90%;
+    width: 74%;
     display: flex;
 }
 .image-item3-box-offer-price{
@@ -339,6 +337,12 @@
     border: none;
     cursor: pointer;
     background-color: #F6F7FB;
+}
+.load-more-btn:hover{
+    background-color: #3577F0;
+    transition: all 1s;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width:480px) {
